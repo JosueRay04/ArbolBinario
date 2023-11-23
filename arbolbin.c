@@ -144,7 +144,7 @@ int main() {
     } else if (caso == 2){
 
     //Caso normal
-    printf("Ingrese valores para agregar al arbol (Ingrese 'n' para terminar):\n");
+    printf("Introduzca el valor. para agregar mas al arbol (Ingrese 'n' para terminar):\n");
     agregarDato(&raiz);
 
     printf("arbol de búsqueda binaria resultante: ");
