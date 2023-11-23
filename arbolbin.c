@@ -130,6 +130,7 @@ int main() {
     insertar(raiz, 6);
     insertar(raiz, 8);
 
+    //esta linea provoca el error si la quita el programa entrara en la verificacion valida
     raiz->izquierda->izquierda->dato = 9; 
 
     if (verificar(raiz)) {
